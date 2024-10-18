@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>LMStudio.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="OllamaSharp" Version="2.0.6" />
+    <PackageReference Include="Refit" Version="7.0.0" />
+    <PackageReference Include="Refit.Newtonsoft.Json" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Llm.Common.Api\Llm.Common.Api.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Dto\Model\ModelDataDto.Convertor.cs">
+      <DependentUpon>ModelDataDto.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Dto\Model\ModelDto.Convertor.cs">
+      <DependentUpon>ModelDto.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Dto\ChatCompletion\MessageDto.Convertor.cs">
+      <DependentUpon>MessageDto.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Dto\ChatCompletion\ChatCompletionRequestDto.Convertor.cs">
+      <DependentUpon>ChatCompletionRequestDto.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Dto\ChatCompletion\ChatCompletionResponseDto.Convertor.cs">
+      <DependentUpon>ChatCompletionResponseDto.cs</DependentUpon>
+    </Compile>
+    <Compile Update="Dto\ChatCompletion\ChoiceDto.Convertor.cs">
+      <DependentUpon>ChoiceDto.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

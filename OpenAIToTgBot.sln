@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAIToTgBot", "OpenAIToTgBot\OpenAIToTgBot.csproj", "{01B339F4-D7F3-426A-9082-D7A7843B56F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LmStudio.Api.Provider", "LmStudio.Api.Provider\LmStudio.Api.Provider.csproj", "{352BDA7F-2C6A-48FB-9F46-320391E0685A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollama.Api.Provider", "Ollama.Api.Provider\Ollama.Api.Provider.csproj", "{006B2A96-C9DF-42BA-8D95-19B1EAFE728C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Llm.Common.Api", "Llm.Common.Api\Llm.Common.Api.csproj", "{90EFD9E2-12D8-4883-AD77-EC862D2D77BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01B339F4-D7F3-426A-9082-D7A7843B56F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B339F4-D7F3-426A-9082-D7A7843B56F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B339F4-D7F3-426A-9082-D7A7843B56F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B339F4-D7F3-426A-9082-D7A7843B56F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{352BDA7F-2C6A-48FB-9F46-320391E0685A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{352BDA7F-2C6A-48FB-9F46-320391E0685A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{352BDA7F-2C6A-48FB-9F46-320391E0685A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{352BDA7F-2C6A-48FB-9F46-320391E0685A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006B2A96-C9DF-42BA-8D95-19B1EAFE728C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006B2A96-C9DF-42BA-8D95-19B1EAFE728C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006B2A96-C9DF-42BA-8D95-19B1EAFE728C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006B2A96-C9DF-42BA-8D95-19B1EAFE728C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90EFD9E2-12D8-4883-AD77-EC862D2D77BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90EFD9E2-12D8-4883-AD77-EC862D2D77BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90EFD9E2-12D8-4883-AD77-EC862D2D77BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90EFD9E2-12D8-4883-AD77-EC862D2D77BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54FA6D6A-0C45-4B06-A963-BAAA46FB5562}
+	EndGlobalSection
+EndGlobal
